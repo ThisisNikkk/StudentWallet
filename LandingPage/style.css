@@ -368,13 +368,13 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #010d01bd;
 }
 
 .section-title h2::before {
@@ -394,7 +394,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #21de70;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -475,7 +475,7 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+  color: #21de70;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -483,11 +483,11 @@ section {
 }
 
 .services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
+  fill: #21de70;
 }
 
 .services .iconbox-orange i {
-  color: #ffa76e;
+  color: #21de70;
 }
 
 .services .iconbox-orange:hover .icon i {
@@ -495,11 +495,11 @@ section {
 }
 
 .services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+  fill: #21de70;
 }
 
 .services .iconbox-pink i {
-  color: #e80368;
+  color: #21de70;
 }
 
 .services .iconbox-pink:hover .icon i {
@@ -507,7 +507,7 @@ section {
 }
 
 .services .iconbox-pink:hover .icon path {
-  fill: #e80368;
+  fill: #21de70;
 }
 
 .button {
