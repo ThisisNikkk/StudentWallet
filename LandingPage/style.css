@@ -510,14 +510,23 @@ section {
   fill: #21de70;
 }
 
-.button {
+#services .btn {
   display: inline-block;
   padding: 0.5rem 1.8rem;
-  margin-top: 30px;
   background: #21de70;
   border-radius: 40px;
   box-shadow: 0 0 1rem #21de70;
-  font-size: 15px;
+  font-size: 17px;
+  margin-top: 15px;
+
+}
+#services .btn:hover {
+  box-shadow: none;
+}
+#services .social-links a:hover {
+  background: var(#21de70);
+  color: var(#010d01bd);
+  box-shadow: 0 0 1rem var(#21de70);
 }
 
 #testimonials {
