@@ -513,6 +513,7 @@ section {
 .button {
   display: inline-block;
   padding: 0.5rem 1.8rem;
+  margin-top: 30px;
   background: #21de70;
   border-radius: 40px;
   box-shadow: 0 0 1rem #21de70;
