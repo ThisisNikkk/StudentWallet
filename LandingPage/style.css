@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #010d01bd;
 }
 
 a {
@@ -74,7 +74,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #21de70;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
