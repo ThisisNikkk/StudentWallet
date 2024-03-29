@@ -1,115 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-.header {
-    position: fixed;
-    top: 7.5px;
-    left: 0px;
-    width: 100%;
-    display: flex;
-    padding: 0.5rem 4%;
-    background: #fff;
-    justify-content: space-between;
-    align-items: baseline;
-}
-.image img{
-    margin: 0;
-    padding: 0;
-    width: 100px;
-    height: 62px;
-    position: relative;
-	cursor: pointer;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-  }
-  
-  body {
-	background-color: #fff;
-  }
-  
-  main {
-	margin-top: 27px;
-  }
-  
-  h1 {
-	margin-bottom: 4%;
-	text-align: center;
-	font-family: 'Poppins', sans-serif;
-	color: #000;
-	font-size: 45px;
-	letter-spacing: 0.1em;
-  }
-  
-  p {
-	margin-top: 5%;
-	margin-bottom: 5%;
-	width: 100%;
-	text-align: center;
-	border-bottom: 1px solid #000;
-	line-height: 0.1em;
-  }
-  
-  p span {
-	background:#fff;
-	padding:0 10px;
-  }
-  
-  input {
-	margin-bottom: 3%;
-  }
-  
-  input:last-of-type {
-	margin-bottom: 0;
-  }
-  
-  input, button {
-	padding: 3%;
-	width: 100%;
-  }
-  
-  .login-container {
-	background-color: white;
-	  padding: 70px;
-	  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
-	  width: 36vw;
-	  margin-left: 32vw;
-	  height: 70vh;
-	  margin-top: 15vh;
-	  border-radius: 50px;
-  }
-  
-  #submit, #create-acct-btn {
-	background-color: #21de70;
-	color: black;
-	border: none;
-	border-radius: 10px;
-	margin-top: 5%;
-	box-shadow: 0 0 1rem #21de70;
-  }
-  
-  button:hover {
-	cursor: pointer;
-	box-shadow: none;
-	transition: 0.3s;
-  }
-  
-  #sign-up {
-	border-radius: 10px;
-	border: node;
-  }
-  
-  #create-acct {
-	display: none;
-  }
-  
-  #return-btn {
-	background: none;
-	color: grey;
-	text-decoration: underline;
-	border: none;
-	margin-top: 3%;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+main {
+  margin-top: 27px;
+}
+
+h1 {
+  margin-bottom: 8%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  font-size: 45px;
+  letter-spacing: 0.1em;
+}
+
+p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+}
+
+p span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+input {
+  margin-bottom: 3%;
+}
+
+input:last-of-type {
+  margin-bottom: 0;
+}
+
+input,
+button {
+  padding: 3%;
+  width: 100%;
+}
+
+.login-container {
+  background-color: white;
+  padding: 70px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  width: 36vw;
+  margin-left: 32vw;
+  height: 70vh;
+  margin-top: 15vh;
+  border-radius: 50px;
+}
+
+#submit,
+#create-acct-btn {
+  background-color: #21de70;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  margin-top: 5%;
+  box-shadow: 0 0 1rem #21de70;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: none;
+  transition: 0.3s;
+}
+
+#sign-up {
+  border-radius: 10px;
+  border: node;
+}
+
+#create-acct {
+  display: none;
+}
+
+#return-btn {
+  background: none;
+  color: grey;
+  text-decoration: underline;
+  border: none;
+  margin-top: 3%;
+}
