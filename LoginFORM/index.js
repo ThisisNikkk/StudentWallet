@@ -93,7 +93,15 @@ var firebaseConfig = {
       database_ref.child('users/' + user.uid).update(user_data)
   
       // DOne
-      alert('User Logged In!!')
+      if(user){
+        console.log('User Logged In')
+        uid = user.uid;
+        window.setInterval(function() {
+        window.location.replace("../LandingPage/main.html");
+      },100)
+    }else{
+        console.log('No Active User')
+    }
   
     })
     .catch(function(error) {
