@@ -316,6 +316,7 @@ input:checked + .payment-method-item::before {
 .payment-form-submit-button > i {
     margin-right: 8px;
 }
+
 /* end: Payment */
 
 
