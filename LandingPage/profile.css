@@ -26,7 +26,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 19px;
-    margin: 4px 15px;
+    margin: 4px 26px;
     transition-duration: 0.4s;
     cursor: pointer;
     
@@ -69,7 +69,7 @@ body {
 }
 #card {
     border-radius: 20px;
-    height: 110vh
+    height: 103vh;
 }
 
 .card {
@@ -147,4 +147,8 @@ html:not(.dark-style) .account-settings-links .list-group-item.active {
 .light-style .account-settings-links .list-group-item {
     padding     : 1.85rem 1.5rem;
     border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.mt-3 {
+    margin-top: 0rem !important;
 }
