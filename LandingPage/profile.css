@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+body {
+    background: #f5f5f5;
+    margin-top: 20px;
+}
+
+.ui-w-80 {
+    width : 115px !important;
+    height: auto;
+}
+
+.btn-default {
+    border-color:  #21de70;
+    background  :  #21de70;
+    color       : #4E5155;
+}
+#a{
+    font-family: "Poppins", sans-serif;
+    background-color:  #21de70;
+    color: black;
+    border: none;
+    box-shadow: 0 0 1rem #21de70;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+
+#b{
+ font-family: "Poppins", sans-serif;
+}
+
+#a:hover {
+    background-color: #21de70;
+    box-shadow: none;
+    color: white;
+
+  }
+
+#b{
+    font-family: "Poppins", sans-serif;
+    color:  #21de70;
+    font-size: 37px;
+}
+
+.form-label {
+    margin: 7px;
+}
+
+.btn-outline-primary {
+    border-color:  #21de70;
+    background  : transparent;
+    color       : black;
+}
+
+.btn {
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+.text-light {
+    color: #babbbc !important;
+}
+#card {
+    border-radius: 20px;
+    height: 110vh
+}
+
+.card {
+    background-clip: padding-box;
+    box-shadow     : 0 1px 4px rgba(24, 28, 33, 0.012);
+    font-family: "Poppins", sans-serif;
+}
+
+.row-bordered {
+    overflow: hidden;
+}
+
+.account-settings-fileinput {
+    position  : absolute;
+    visibility: hidden;
+    width     : 1px;
+    height    : 1px;
+    opacity   : 0;
+}
+
+.list-group-item {
+    font-family: "Poppins", sans-serif;
+}
+
+.list-group-item .list-group-item-action .active{
+    margin-top: 10px;
+}
+
+.account-settings-links .list-group-item.active {
+    font-weight: bold !important;
+    font-family: "Poppins", sans-serif;
+}
+
+html:not(.dark-style) .account-settings-links .list-group-item.active {
+    background: transparent !important;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.account-settings-multiselect~.select2-container {
+    width: 100% !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding     : 1.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #4e5155 !important;
+}
+
+.material-style .account-settings-links .list-group-item {
+    padding     : 1.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.material-style .account-settings-links .list-group-item.active {
+    color: #4e5155 !important;
+}
+
+.dark-style .account-settings-links .list-group-item {
+    padding     : 1.85rem 1.5rem;
+    border-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+.dark-style .account-settings-links .list-group-item.active {
+    color: #fff !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #4E5155 !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding     : 1.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
