@@ -9,6 +9,7 @@ body {
 .ui-w-80 {
     width : 115px !important;
     height: auto;
+    border-radius: 50%;
 }
 
 .btn-default {
