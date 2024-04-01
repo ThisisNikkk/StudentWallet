@@ -19,8 +19,12 @@ html, body {
     outline: none;
 }
 #content_container {
-    width: 35%;
+    display: flex;
+    width: 100%;
     height: 70%;
+    padding-left: 52%;
+    padding-right: 11%;
+    margin: 50px 5px 2px;
 }
 
 #form_container {
@@ -59,7 +63,7 @@ html, body {
     letter-spacing: 1px;
     background: #fff;
     color: #000;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 #form_content_container {
@@ -72,7 +76,7 @@ html, body {
     justify-content: center;
     align-items: center;
 
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 #form_content_inner_container {
@@ -97,8 +101,8 @@ input {
 }
 
 #button_container {
-    width: 43%;
-    height: 10%;
+    width: 42%;
+    height: 50px;
     margin-left: 30%;
     background-color: #21de70;
     color: #fff;
@@ -109,26 +113,19 @@ input {
     box-shadow: 0 0 1rem #21de70;
 }
 .a{
-    border-radius: 20px;
-    background-clip: padding-box;
-    box-shadow     : 0 1px 4px rgba(24, 28, 33, 0.012);
-    font-family: "Poppins", sans-serif;
-    
-}
-.a{
-    padding: 10px 20px; /* Adjust padding as needed */
-    font-size: 16px; /* Adjust font size as needed */
-    border: 2px solid hsl(0, 9%, 71%); /* Border style and color */
-    border-radius: 5px; /* Border radius for rounded corners */
-    background-color: transparent; /* Transparent background */
-    color: #333; /* Text color */
-    cursor: pointer; /* Cursor style */
-    transition: all 0.3s ease; /* Smooth transition effect */
+    padding: 24px 10px;
+    font-size: 16px;
+    border: 2px solid hsl(0, 9%, 71%);
+    border-radius: 40px;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
   }
   
   .a:hover {
     border-color: #4c4646;
-    color: black; /* Text color on hover */
+    color: black;
   }
 
 #button_container button {
@@ -141,4 +138,56 @@ input {
     cursor: pointer;
     border-radius: 50px;
 }
+.custom-shape-divider-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.custom-shape-divider-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 
+.custom-shape-divider-top svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 283px;
+}
+.custom-shape-divider-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(59% + 1.3px);
+    height: 368px;
+}
+
+.custom-shape-divider-top .shape-fill {
+    fill: #21DE70;
+}
+.custom-shape-divider-bottom .shape-fill {
+    fill: #21DE70;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 87%;
+    width: 52%;
+    overflow: hidden;
+    line-height: 0;
+}
+.logo img{
+    width: 46%;
+    position: relative;
+    left: 19.1rem;
+    top: 16.29rem;
+    margin: -55px -45px;
+}

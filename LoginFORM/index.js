@@ -148,3 +148,15 @@ var firebaseConfig = {
       return true
     }
   }
+
+  ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 2100,
+    delay: 200,
+});
+
+//ScrollReveal().reveal('.custom-shape-divider-top', { origin: 'top' });
+//ScrollReveal().reveal('.custom-shape-divider-bottom', { origin: 'bottom' });
+ScrollReveal().reveal('#logo', { origin: 'left' });
+ScrollReveal().reveal('#form_container', { origin: 'right' });
