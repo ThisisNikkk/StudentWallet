@@ -13,6 +13,7 @@
         <link rel="stylesheet" type="text/css" href="../LoginFORM/index.css">
     </head>
     <body>
+        
         <div id="content_container">
             <div id="form_container">
                 <div id="form_header_container">
@@ -21,9 +22,10 @@
 
                 <div id="form_content_container">
                     <div id="form_content_inner_container">
-                        <input type="text" id="full_name" placeholder="Full name">
-                        <input type="email" id="email" placeholder="Email">
-                        <input type="password" id="password" placeholder="New Password">
+                        <div class="card-body">
+                        <input type="text" class="a" id="full_name" placeholder="Full name">
+                        <input type="email" class="a" id="email" placeholder="Email">
+                        <input type="password" class="a"  id="password" placeholder="New Password">
                         <div id="button_container">
                             <button onclick="login()">Login</button>
                         </div>
@@ -36,15 +38,5 @@
             </div>
         </div>
     </body>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-         https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
-
-    <!-- Our script must be loaded after firebase references -->
-    <script src="../LoginFORM/index.js"></script>
-
+   
 </html>
