@@ -259,7 +259,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("./assets/img/Untitled\ design.png") top right no-repeat;
+  background: url("../assets/images/Untitled\ design.png") top right no-repeat;
   background-size: cover;
   position: relative;
 }

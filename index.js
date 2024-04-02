@@ -97,7 +97,7 @@ var firebaseConfig = {
         console.log('User Logged In')
         uid = user.uid;
         window.setInterval(function() {
-        window.location.replace("../LandingPage/main.html");
+        window.location.replace("./public/main.html");
       },100)
     }else{
         console.log('No Active User')
